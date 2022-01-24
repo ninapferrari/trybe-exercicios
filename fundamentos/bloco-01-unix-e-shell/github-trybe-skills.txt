@@ -4,5 +4,3 @@ git
 Internet
 HTML 
 CSS
-HTML
-CSS
