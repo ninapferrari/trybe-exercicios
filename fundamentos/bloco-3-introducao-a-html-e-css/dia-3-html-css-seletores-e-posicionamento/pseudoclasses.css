@@ -1,0 +1,28 @@
+div:hover {
+    border-style: solid;
+}
+
+#azul {
+    color: blue;
+    font-family: cursive;
+    font-style: italic;
+}
+#vermelho {
+    color: red;
+    font-family: fantasy;
+}
+#marrom {
+    color: brown;
+    font-family: monospace;
+    font-size: 100px;
+    font-style: italic;
+}
+#preto {
+    color:black;
+    font-family: sans-serif;
+}
+#verde-claro {
+    color: greenyellow;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
