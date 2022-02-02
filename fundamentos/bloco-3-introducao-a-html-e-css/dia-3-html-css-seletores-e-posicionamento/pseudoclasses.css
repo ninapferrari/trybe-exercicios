@@ -7,14 +7,14 @@ div:hover {
     font-family: cursive;
     font-style: italic;
 }
-#vermelho {
-    color: red;
-    font-family: fantasy;
-}
 #marrom {
     color: brown;
+    font-family: fantasy;
+}
+#vermelho {
+    color: red;
     font-family: monospace;
-    font-size: 100px;
+    font-size: 2em;
     font-style: italic;
 }
 #preto {
