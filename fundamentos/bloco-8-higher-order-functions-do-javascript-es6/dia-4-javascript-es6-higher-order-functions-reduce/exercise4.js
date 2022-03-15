@@ -75,10 +75,11 @@ const books = [
 
 function longestNamedBook() {
     const nameBook = books.reduce((accumulator, item) => {
-        if (item.name.lenght > accumulator.name.length) {
+        if (item.name.length > accumulator.name.length) {
             return item;
         } else return accumulator;
     });
+    return nameBook;
 }
 
-console.log(longestNamedBook);
+console.log(longestNamedBook());
