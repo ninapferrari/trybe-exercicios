@@ -65,13 +65,10 @@ const books = [
 
 function reduceNames() {
     const authornNames = books.reduce((accumulator, name, index, array) => {
-        if (index === array.length - 1) {
-            return `${accumulator}  ${name.author.name}. `
-        };
-    });
-    return `${accumulator}  ${name.author.name}, `,
-        ''
-};
-return authornNames;
+        if (index === array.length - 1)
+            return `${accumulator}  ${name.author.name}. `;
+        return `${accumulator}  ${name.author.name}, `
+    }, '');
+    return authornNames;
 }
 console.log(reduceNames());
